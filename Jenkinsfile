@@ -4,7 +4,9 @@ pipeline {
     }
 environment{
          SAMPLE_URL="google.com"
-          SSH=credentials('SSH')
+          SSH=credentials('ssh')
+
+
 
      }
     stages {
